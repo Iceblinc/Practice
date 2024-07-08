@@ -1,0 +1,6 @@
+my_string = input("Ввести что угодно: ")
+print("Всё в верхнем регистре: ", my_string.upper())
+print("Всё в нижнем регистре: ", my_string.lower())
+print("Всё без пробелов: ", my_string.replace(" ", ""))
+print("Первая буква: ", my_string[0])
+print("Последняя буква: ", my_string[-1])
